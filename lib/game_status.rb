@@ -14,6 +14,8 @@ WIN_COMBINATIONS = [
   [2,4,6]
   ]
 
+def won?(board)
+  
   top_row_win = [0]
   middle_row_win = [1]
   bottom_row_win = [2]
@@ -23,10 +25,6 @@ WIN_COMBINATIONS = [
   right_diagonal_win = [6]
   left_diagonal_win = [7]
 
-
-def won?(board)
-  
-    
 end
 
   def full?(board)
