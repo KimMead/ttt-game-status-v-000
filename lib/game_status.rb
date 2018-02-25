@@ -40,7 +40,6 @@ end
   right_diagonal_win = [6]
   left_diagonal_win = [7]
 
-end
 
   def full?(board)
   if board.all? {|i| i == "X" || i == "O"}
