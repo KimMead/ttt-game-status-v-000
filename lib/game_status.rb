@@ -14,7 +14,6 @@ WIN_COMBINATIONS = [
   [2,4,6]
   ]
 
-
   top_row_win = [0]
   middle_row_win = [1]
   bottom_row_win = [2]
