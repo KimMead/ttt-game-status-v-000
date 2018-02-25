@@ -15,10 +15,11 @@ WIN_COMBINATIONS = [
   ]
 
 def won?(board)
-  WIN_COMBINATIONS each
+  WIN_COMBINATIONS.find do |win_combination|
   
-  if board[0] == 
-  
+  if board[0] == win_combination[0] &&
+    board[1] == win_combination[0] 
+end
   
   middle_row_win = [1]
   bottom_row_win = [2]
