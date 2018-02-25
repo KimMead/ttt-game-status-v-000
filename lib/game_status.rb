@@ -15,9 +15,11 @@ WIN_COMBINATIONS = [
   ]
 
 def won?(board)
-  WIN_COMBINATIONS 
+  WIN_COMBINATIONS each
   
-  top_row_win = [0]
+  if board[0] == 
+  
+  
   middle_row_win = [1]
   bottom_row_win = [2]
   left_vertical_win = [3]
