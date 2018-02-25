@@ -30,15 +30,6 @@ def won?(board)
   end
   false
 end
-  
-  middle_row_win = [1]
-  bottom_row_win = [2]
-  left_vertical_win = [3]
-  middle_vertical_win = [4]
-  right_vertical_win = [5]
-  right_diagonal_win = [6]
-  left_diagonal_win = [7]
-
 
   def full?(board)
   if board.all? {|i| i == "X" || i == "O"}
