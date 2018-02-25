@@ -35,7 +35,6 @@ end
   if board.all? {|i| i == "X" || i == "O"}
   return true
 end
-
   end
   
   def draw?(board)
